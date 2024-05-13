@@ -24,7 +24,7 @@ export default function VideoDetail() {
         </div>
       </Grid>
       <Grid item xs={9} md={3}>
-        <RelatedVideos id={channelId} name={channelTitle} />
+        <RelatedVideos id={channelId} name={channelTitle} />  
       </Grid>
     </Grid>
   )
