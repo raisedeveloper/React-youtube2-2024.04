@@ -11,7 +11,7 @@ export default function VideoDetail() {
 
   return (
     <Grid container spacing={2}>
-      <Grid item xs={9} md={9}>
+      <Grid item xs={9} md={9}>    
         <Box sx={{paddingTop: '53%', height: 0, width: '100%', position: 'relative'}}>
           <iframe id='player' type='text/html' width={'100%'} height={'100%'}
             style={{position: 'absolute', top: 0, left: 0}} title={title}

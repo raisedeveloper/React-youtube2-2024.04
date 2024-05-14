@@ -30,7 +30,7 @@ export default function RelatedVideos({ id, name }) {
 
   return (
     <>
-      {isLoading && <p><HourglassTopIcon />Loading</p>}
+      {isLoading && <p><HourglassTopIcon />Loading...</p>}
       {error && <p><WarningAmberIcon />Something is wrong!!!</p>}
       {videos && (
         <Stack direction={'column'} spacing={1} sx={{ textAlign: 'center' }}>
