@@ -7,7 +7,7 @@ import RelatedVideos from "../components/RelatedVideos";
 
 export default function VideoDetail() {
   const { state: {video} } = useLocation();
-  const { title, channelId, channelTitle, description } = video.snippet;
+  const { title, channelId, channelTitle, description } = video.snippet;    
 
   return (
     <Grid container spacing={2}>
